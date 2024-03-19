@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.menu {
+    padding: 0px 10px;
+}
+
+.signup-box, .login-box {
+    width: 360px;
+    margin: 75px auto;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+
+  form label {
+    display: flex;
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background: #e4e4e4;
+    outline: none;
+  }
+
+  .signup-box h1, .login-box h1 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  button {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0px;
+    border-radius: 20px;
+    width: 90%;
+    cursor: pointer;
+  }
+
+input:focus {
+  border: 1px solid rgba(192, 192, 192);
+}
+
+.alert-box{
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 150px;
+  max-width: 90%;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  background: rgb(255, 119, 119);
+  border-top: 10px solid rgb(255, 37, 37);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+  font-family: 'roboto', sans-serif;
+  text-align: center;
+  transition: 1s;
+}
+
+.alert-message{
+  font-family: 'roboto', sans-serif;
+  color:rgb(228, 21, 21);
+  font-size: 0.8rem;
+}

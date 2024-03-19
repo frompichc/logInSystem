@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">Logo</a>
+            <nav class="navbar">
+                <a href="" class="menu">Sesiones</a>
+                <a href="" class="menu">Contacto</a>
+                <a href="login.html" class="menu">Iniciar Sesion</a>
+                <a href="#" class="menu">Registrarse</a>
+            </nav>
+        </header>
+        <div class="alert-box" id="alert-box">
+            <p class="alert-message" id="alert-message"></p>
+        </div>    
+        <div class="signup-box">
+            <h1>Registrate</h1>
+            <h4>Es gratis!! Solo toma un minuto</h4>
+            <form>
+                <label>Nombre completo</label>
+                <input type="text" placeholder="" id="name" required />
+                <p class="alert-message" id="alert-message-name"></p>    
+                <label>Correo electronico</label>
+                <input type="email" placeholder="" id="email"/>
+                <p class="alert-message" id="alert-message-email"></p>
+                <label>Contraseña</label>
+                <input type="password" placeholder="" id="password" />
+                <p class="alert-message" id="alert-message-password"></p>
+                <label>Re-ingresa contraseña</label>
+                <input type="password" placeholder="" id="confirm-password"/>
+                <p class="alert-message" id="alert-message-confirm-password"></p>
+            </form>
+            <button id="submitBtn">Registrate</button>
+            <div class="member">
+                ¿Ya estas registrado? <a href="login.html">Inicia sesión aquí</a>
+            </div>
+        </div>
+        <script src="/js/register.js"></script>
+    </body>
+</html>

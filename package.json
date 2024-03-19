@@ -1,0 +1,19 @@
+{
+  "name": "hablemos_webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hablemos_webapp": "nodemon index.js"
+  },
+  "author": "Fredy_Rompich",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
