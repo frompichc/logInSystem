@@ -36,6 +36,9 @@ const validateInput = () => {
     return true;
 }
 
-const validateData = (data) => {
-
+const validateData = (textMessage, objectMessage) => {
+    console.log(objectMessage)
+    alertMessage = document.getElementById(objectMessage);
+    console.log(alertMessage, textMessage);
+    alertMessage.innerText = textMessage;
 }
